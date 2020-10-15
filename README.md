@@ -1,3 +1,3 @@
 # Vigenere
 
-Vigenere Cipher
+Vigenere Cipher Assignment
