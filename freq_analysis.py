@@ -29,3 +29,5 @@ def freq(text):
 
 #you can manually call freq if you want and not use the arguments.
 freq(fileText)
+
+#[::4] [1::4]
