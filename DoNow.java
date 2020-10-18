@@ -1,0 +1,13 @@
+public class DoNow{
+    public static void main(String[]args){
+        //put any two letters
+        System.out.println(encodeSingle("C","C"));
+    }
+    public static String encodeSingle(String plainletter, String keyletter){
+        String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        int index1= alphabet.indexOf(plainletter);
+        int index2=alphabet.indexOf(keyletter);
+        int newIndex = (index1+index2) % 26;
+        return alphabet.substring(newIndex,newIndex+1);
+    }
+}
