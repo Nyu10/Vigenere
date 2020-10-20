@@ -9,8 +9,8 @@ if (sys.argv[1]=="encode"):
    boolean=True
 else:
    boolean=False
-text = sys.argv[2]
-key = sys.argv[3]
+text = sys.argv[2].upper()
+key = sys.argv[3].upper()
 alphabet="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 def vigenere(text,key,boolean):
    expanded_key = key*(math.floor(len(text)/len(key))+1)
