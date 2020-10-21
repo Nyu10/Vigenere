@@ -2,7 +2,7 @@
 
 Vigenere Cipher Assignment
 
-Decoder can decode or encode a text with a kid using the Vigenere Cipher
+Decoder can decode or encode a text with a key using the Vigenere Cipher
 
 make run ARGS="encode plaintext key"    
 make run ARGS="decode ciphertext key"  
